@@ -11,8 +11,4 @@ function cssCreate(cssCreateName) {
     document.head.appendChild(cssCreateArg);
 }
 
-console.log("1");
 scriptCreate("vars.js");
-console.log("2");
-cssCreate("css.css");
-console.log("3");
