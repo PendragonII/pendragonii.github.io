@@ -1,5 +1,5 @@
-var varDomainBareTop = "dhe.estate";
-var varDomainBareSub = "git" + "." + varDomainBareTop;
+var varDomainBareTop = "example.net";
+var varDomainBareSub = "www" + "." + varDomainBareTop;
 var varUseHttpSecure = "True"; // True or False
 
 // Will delete this later
