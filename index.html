@@ -14,8 +14,10 @@
         <p>Insertion: <a id="the_domain"></a>.</p>
 
         <script>
-         document.getElementById("the_domain").innerHTML = varDomainBareSub;
-         document.getElementById("the_domain").setAttribute("href", varDomainHttpSub);
+         function postLoad() {
+             document.getElementById("the_domain").innerHTML = varDomainBareSub;
+             document.getElementById("the_domain").setAttribute("href", varDomainHttpSub);
+         }
         </script>
 
     </body>
